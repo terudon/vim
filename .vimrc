@@ -4,4 +4,4 @@ let mapleader = "\<Space>"
 
 filetype plugin indent on
 syntax on
-set endcoding=utf-8
+set encoding=utf-8
