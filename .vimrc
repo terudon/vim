@@ -1,13 +1,22 @@
-inoremap jk <ESC>
-
 let mapleader = "\<Space>"
 
-filetype plugin indent on
-syntax on
-set encoding=utf-8
+syntax enable 		" enable syntax processing
 
-call plug#begin('~/.vim/plugged')
+set tabstop=4      	" number of visual spaces per TABF
+set number			" show line numbers
+set showcmd         " show command in bottom bar
 
-Plug 'tpope/vim-fugitive'
+set wildmenu        " visual autocomplete for command menu
+set lazyredraw		" redraw only when needs to
+set showmatch       " highlight matching [{()}]
 
-call plug#end()
+set incsearch           " search as characters are entered
+set hlsearch            " highlight matches
+
+" move to beginning/end of line
+nnoremap B ^
+nnoremap E $
+
+" $/^ doesn't do anything
+nnoremap $ <nop>
+nnoremap ^ <nop>
