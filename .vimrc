@@ -23,3 +23,5 @@ nnoremap ^ <nop>
 
 nnoremap <A-k> gt 
 nnoremap <A-j> gT 
+
+nnoremap <Space> za
