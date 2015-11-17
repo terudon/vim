@@ -20,3 +20,6 @@ nnoremap E $
 " $/^ doesn't do anything
 nnoremap $ <nop>
 nnoremap ^ <nop>
+
+nnoremap <A-k> gt 
+nnoremap <A-j> gT 
