@@ -13,6 +13,11 @@ set showmatch       " highlight matching [{()}]
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 
+"Turn the beeping off!
+set noerrorbells
+set visualbell
+set t_vb=
+
 " move to beginning/end of line
 nnoremap B ^
 nnoremap E $
