@@ -21,7 +21,7 @@ nnoremap E $
 nnoremap $ <nop>
 nnoremap ^ <nop>
 
-nnoremap <A-k> gt 
-nnoremap <A-j> gT 
+nnoremap <A-l> gt 
+nnoremap <A-h> gT 
 
 nnoremap <Space> za
